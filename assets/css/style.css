@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+body{
+    padding: 20px 50px;
+    background: linear-gradient(90deg, #f3a229 0%, #7315cd 100%);
+}
+
+/* MENU DE NAVEGAÇÃO */
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+header .btn_menu{
+    display: none;
+    width: 35px;
+    height: 35px;
+    background: url(../images/menu.svg);
+}
+header .menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+header .menu li{
+    margin: 0 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+header .menu li:hover{
+    color: #4386f1;
+    cursor: pointer;
+}
+header .menu button{
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    background: linear-gradient(90deg, #690ad5 0%, #2676f3 100%);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+header .menu button:hover{
+    font-size: 15px;
+}
+
+/* CONTEÚDO */
+section{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+section .text{
+    flex: 1;
+}
+section .imagem{
+    flex: 1;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.text h1{
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 65px;
+
+}
+.text p{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 35px;
+}
+.text button{
+    width: 140px;
+    height: 45px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    background-color: #272d4d;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 12px;
+    transition: 0.2s linear;
+}
+.text button:hover{
+    font-size: 13px;
+}
+.imagem{
+    margin-top: 85px;
+}
+.imagem img{
+    width: 70%;
+    height: auto;
+    margin-left: 25%;
+}
+
+.imagem button{
+    display: none;
+    width: 180px;
+    height: 45px;
+    margin-top: 30px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    background-color: #272d4d;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 12px;
+    transition: 0.2s linear;
+}
+.imagem button:hover{
+    font-size: 13px;
+}
+
+
+
