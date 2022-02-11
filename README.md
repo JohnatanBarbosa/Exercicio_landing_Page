@@ -13,8 +13,8 @@
 
 <h3 align="center" style="text-decoration: underline">Mobile</h3>
 
-<div style="width: 200px; margin: auto">
-    <img src="assets/images/Mobile.gif">
+<div align="center">
+    <img width="200px" src="assets/images/Mobile.gif">
 </div>
 
 ---
