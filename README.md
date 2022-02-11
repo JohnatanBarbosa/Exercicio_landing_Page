@@ -14,7 +14,7 @@
 <h3 align="center" style="text-decoration: underline">Mobile</h3>
 
 <div style="width: 200px; margin: auto">
-    <img src="assets/images/mobile.gif">
+    <img width="100%" src="assets/images/mobile.gif">
 </div>
 
 ---
