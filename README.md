@@ -38,7 +38,6 @@
 
 #### Para acessar a página clique <a href="https://landing-page-jb.netlify.app/">aqui</a>
 
-<br>
 
 ### Autor:
 
